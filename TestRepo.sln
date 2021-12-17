@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestRepo", "TestRepo\TestRepo.fsproj", "{EDD89214-6433-4CA7-A423-2C8F223078EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD89214-6433-4CA7-A423-2C8F223078EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD89214-6433-4CA7-A423-2C8F223078EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD89214-6433-4CA7-A423-2C8F223078EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD89214-6433-4CA7-A423-2C8F223078EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
