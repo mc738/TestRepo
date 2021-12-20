@@ -1,0 +1,73 @@
+[
+  {
+    "name": "html",
+    "outputDirectory": "C:\\ProjectData\\TestRepo\\website",
+    "templates": [
+      {
+        "name": "main",
+        "path": "Documentation\\page-template.mustache"
+      }
+    ],
+    "codeDocuments": [
+      {
+        "sourceCode": "C:\\Users\\44748\\Projects\\TestRepo\\TestRepo\\Library.fs",
+        "xmlSource": "C:\\Users\\44748\\Projects\\TestRepo\\TestRepo\\obj\\Debug\\net6.0\\TestRepo.xml",
+        "template": "main",
+        "outputPath": "documentation.html",
+        "thanks": "Photo by <a href=\"https://unsplash.com/@robsphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Rob Sheahan</a> on <a href=\"https://unsplash.com/s/photos/crates?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+
+      }
+    ],
+    "directories": [
+      "css",
+      "js",
+      "img"
+    ],
+    "resources": [
+      {
+        "path": "Documentation\\Resources\\css\\style.css",
+        "outputPath": "css\\style.css"
+      },
+      {
+        "path": "Documentation\\Resources\\css\\fdom.css",
+        "outputPath": "css\\fdom.css"
+      },
+      {
+        "path": "Documentation\\Resources\\css\\font-awesome.css",
+        "outputPath": "css\\font-awesome.css"
+      },
+      {
+        "path": "Documentation\\Resources\\css\\roboto.css",
+        "outputPath": "css\\roboto.css"
+      },
+      {
+        "path": "Documentation\\Resources\\js\\index.js",
+        "outputPath": "js\\index.js"
+      },
+      {
+        "path": "Documentation\\Resources\\img\\rob-sheahan-OXiPORaxkmE-unsplash.jpg",
+        "outputPath": "img\\rob-sheahan-OXiPORaxkmE-unsplash.jpg"
+      }
+    ],
+    "pages": [
+      {
+        "name": "index",
+        "title": "Home",
+        "titleSlug": "home",
+        "template": "main",
+        "source": "Documentation\\index.md",
+        "outputPath": "index.html",
+        "thanks": "Photo by <a href=\"https://unsplash.com/@robsphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Rob Sheahan</a> on <a href=\"https://unsplash.com/s/photos/crates?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+      },
+      {
+        "name": "about",
+        "title": "About",
+        "titleSlug": "about",
+        "template": "main",
+        "source": "Documentation\\about.md",
+        "outputPath": "about.html",
+        "thanks": "Photo by <a href=\"https://unsplash.com/@robsphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Rob Sheahan</a> on <a href=\"https://unsplash.com/s/photos/crates?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+      }
+    ]
+  }
+]

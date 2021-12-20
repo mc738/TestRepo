@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestRepo", "TestRepo\TestRepo.fsproj", "{EDD89214-6433-4CA7-A423-2C8F223078EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gena", "Gena", "{A0425593-7629-4335-9E5D-90370599FB2E}"
+	ProjectSection(SolutionItems) = preProject
+		.gena = .gena
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

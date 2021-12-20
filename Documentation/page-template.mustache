@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestRepo - {{title}}</title>
+    <link href="./css/roboto.css" rel="stylesheet">
+    <link href="./css/font-awesone.css" rel="stylesheet">
+    <link href="./css/fdom.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav style="position: fixed; height: 50px; width: 100vw; background-color: black; display: flex; justify-content: space-between; padding-right: 2rem;">
+    <div class="logo">
+        <a href="/" style="display: flex;">
+            <h1><span class="logo-title">TestRepo</span>
+                <code class="logo-version">{{version}}</code>
+            </h1>
+        </a>
+    </div>
+    <div class="nav-links">
+        <a style="padding: 1rem;" href="./about.html">About</a>
+        <div class="gh-link">
+            <a href="https://github.com/mc738/TestRepo">
+                <span><i class="fab fa-github" style="font-size: 30px;"></i></span>
+            </a>
+        </div>
+    </div>
+</nav>
+<div class="parallax">
+    <div class="page-title">
+        <h1>{{title}}</h1>
+    </div>
+</div>
+<main>
+    {{&content}}
+    <div class="dv"></div>
+    <h1>Issues/feedback</h1>
+    <p>Any issues/feedback? Simply open an <a href="https://github.com/mc738/TestRepo/issues/">issue</a>.</p>
+</main>
+<div class="parallax-end {{titleSlug}}"></div>
+<footer>
+    <p>
+        {{&thanks}}
+    </p>
+    <small>Page generated on: {{now}} with <a href='https://github.com/mc738/FDOM'>FDOM</a></small>
+</footer>
+</body>
+</html>
+{{end}}

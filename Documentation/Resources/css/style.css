@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+code {
+    font-family: monospace;
+}
+
+nav {
+    position: fixed; 
+    height: 50px; 
+    width: 100vw; 
+    background-color: black; 
+    display: flex; 
+    justify-content: space-between; 
+    padding-right: 2rem;
+}
+
+.parallax {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(../img/rob-sheahan-OXiPORaxkmE-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.parallax-2 {
+    height: 50vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+}
+
+.parallax-end {
+    height: 20vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dv {
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.overview {
+    background-image: url(../images/emma-frances-logan-tb7LhJ-2_30-unsplash.jpg);
+}
+
+.routes {
+    background-image: url(../images/ed-259-xcrI6CPkkJs-unsplash.jpg);
+}
+
+.jobs {
+    background-image: url(../images/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg);
+}
+
+.commands {
+    background-image: url(../images/chris-ried-ieic5Tq8YMk-unsplash.jpg);
+}
+
+.examples {
+    background-image: url(../images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg);
+}
+
+main {
+    padding: 1rem 2rem;
+    background-color: white;
+    min-height: 30vh;
+    width: 100vw;
+}
+
+.examples-main {
+    width: 100vw;
+    background-image: url(../images/emma-frances-logan-tb7LhJ-2_30-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    height: 10vh;
+    background-color: transparent;
+    padding-left: 2rem;
+}
+
+footer p {
+    padding: 0.25rem 0rem;
+}
+
+.example {
+    width: calc(100% - 4rem);
+    padding: 1rem;
+    background-color: lightgray;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+small {
+    font-style: 0.5rem;
+    color: grey;
+    padding: 0;
+}
+
+.logo {
+    color: white; 
+    margin: auto 2rem;
+}
+
+.logo a h1 {
+    padding: 0;
+}
+
+.logo-title {
+    text-transform: uppercase; 
+    letter-spacing: 0.5rem; 
+    font-size: 1.5rem; 
+    color: white;
+}
+
+.logo-version {
+    background-color: lightgray; 
+    color: rebeccapurple; 
+    font-size: 12px; 
+    padding-left: 0.25rem; 
+    padding-right: 0.25rem;
+}
+
+.nav-links {
+    display: flex; 
+    align-items: center;
+}
+
+.gh-link {
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    margin: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.page-title {
+    background-color: rebeccapurple; 
+    padding: 1rem; margin-left: 2rem;
+}
+
+.page-title h1 {
+    font-size: 2rem; 
+    letter-spacing: 0.5rem; 
+    text-transform: uppercase; 
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: lightgray;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rebeccapurple;
+  }

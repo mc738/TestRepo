@@ -1,0 +1,67 @@
+
+
+.codeblock {
+    width: calc(100% - 4rem);
+    padding: 1rem;
+    background-color: lightgray;
+    margin: 1rem 2rem;
+    font-family: monospace;
+}
+
+ul, ol {
+    padding-left: 2rem
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+section {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.i {
+    font-style: italic;
+}
+
+.b.i {
+    color: rebeccapurple;
+    font-weight: bolder;
+    font-style: normal;
+    background: lightgray;
+    padding: 0.1rem;
+}
+
+.code {
+    font-family: monospace;
+    background-color: lightgray;
+    color: rebeccapurple;
+    margin: 0.5rem 0.25rem;
+    padding: 0.1rem;
+}
+
+.codeblock .code {
+    font-family: monospace;
+    padding: unset;
+    margin: unset;
+    color: unset;
+
+}
