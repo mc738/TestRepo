@@ -12,6 +12,7 @@ module Foo =
 
     let j = 1
 
+    let test = "Hello, World!"
     
     /// <summary>An example DU.</summary>
     type DU =
