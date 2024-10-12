@@ -12,6 +12,8 @@ module Foo =
 
     let j = 1
     
+    let t = ""
+    
     /// <summary>An example DU.</summary>
     type DU =
         | Text of string
